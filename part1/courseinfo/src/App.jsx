@@ -1,5 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
-
 const Header = ({ course }) => {
   return <h1>{course}</h1>;
 };
@@ -27,17 +25,17 @@ const App = () => {
   const course = "Half Stack application development";
   const parts = [
     {
-      id: uuidv4(),
+      id: 1,
       name: "Fundamentals of React",
       exercises: 10,
     },
     {
-      id: uuidv4(),
+      id: 2,
       name: "Using props to pass data",
       exercises: 7,
     },
     {
-      id: uuidv4(),
+      id: 3,
       name: "State of a component",
       exercises: 14,
     },
